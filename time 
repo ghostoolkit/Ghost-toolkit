@@ -1,0 +1,11 @@
+import time
+from datetime import datetime
+
+print("GHOST Time Bot Started...")
+
+for i in range(5):
+    abhi_time = datetime.now().strftime("%H:%M:%S")
+    print(f"[{i+1}] Time abhi hai: {abhi_time}")
+    time.sleep(2)
+
+print("Bot khatam!")
